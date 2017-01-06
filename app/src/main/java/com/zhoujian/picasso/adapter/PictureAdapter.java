@@ -7,15 +7,12 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Transformation;
 import com.zhoujian.picasso.R;
 import com.zhoujian.picasso.bean.Person;
 import com.zhoujian.picasso.transform.RoundedTransformationBuilder;
-
 import java.util.ArrayList;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
