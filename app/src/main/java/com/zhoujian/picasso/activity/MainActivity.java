@@ -30,9 +30,6 @@ public class MainActivity extends Activity
         initDates();
         setDatas();
 
-
-
-
     }
 
     private void setDatas()
