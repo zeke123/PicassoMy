@@ -3,13 +3,10 @@ package com.zhoujian.picasso.activity;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ListView;
-
 import com.zhoujian.picasso.R;
 import com.zhoujian.picasso.adapter.PictureAdapter;
 import com.zhoujian.picasso.bean.Person;
-
 import java.util.ArrayList;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
@@ -29,7 +26,6 @@ public class MainActivity extends Activity
         mBind = ButterKnife.bind(MainActivity.this);
         initDates();
         setDatas();
-
     }
 
     private void setDatas()
@@ -40,7 +36,6 @@ public class MainActivity extends Activity
 
     private void initDates()
     {
-
         Person person0 = new Person("http://pic47.nipic.com/20140830/7487939_180041822000_2.jpg","湖光山色");
         personList.add(person0);
         Person person1 = new Person("http://pic41.nipic.com/20140518/4135003_102912523000_2.jpg","万紫千红");
@@ -53,11 +48,11 @@ public class MainActivity extends Activity
         personList.add(person4);
         Person person5 = new Person("http://img2.3lian.com/2014/c7/51/d/26.jpg","春山如笑");
         personList.add(person5);
-
     }
 
     @Override
-    protected void onDestroy() {
+    protected void onDestroy()
+    {
         super.onDestroy();
         mBind.unbind();
     }

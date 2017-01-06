@@ -4,7 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.zhoujian.picasso.activity.MainActivity">
+
+
     <ListView
         android:id="@+id/list_person"
         android:layout_width="match_parent"
@@ -15,4 +18,8 @@
         android:dividerHeight="10dp"
         android:layoutAnimation="@anim/layout_animation"
         android:listSelector="@android:color/transparent"/>
+
+
+
+
 </LinearLayout>
