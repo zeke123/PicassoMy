@@ -3,10 +3,13 @@ package com.zhoujian.picasso.activity;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ListView;
+
 import com.zhoujian.picasso.R;
 import com.zhoujian.picasso.adapter.PictureAdapter;
 import com.zhoujian.picasso.bean.Person;
+
 import java.util.ArrayList;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
@@ -26,6 +29,10 @@ public class MainActivity extends Activity
         mBind = ButterKnife.bind(MainActivity.this);
         initDates();
         setDatas();
+
+
+
+
     }
 
     private void setDatas()
